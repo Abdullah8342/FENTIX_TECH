@@ -1,0 +1,30 @@
+.header,.navigation,.footer {
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    flex: 1 1 100%;
+}
+.main {
+    display: flex;
+    height: 500px;
+    flex-wrap: wrap;
+}
+
+.left, .right {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 250px;
+}
+
+.center {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2 1 250px;
+}
+
